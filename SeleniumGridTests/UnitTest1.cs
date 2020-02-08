@@ -60,5 +60,10 @@ namespace SeleniumGridTests
             Thread.Sleep(5000);
             driver.Quit();
         }
+
+        public void Test5()
+        {
+            Assert.Pass();
+        }
     }
 }
